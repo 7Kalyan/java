@@ -2,57 +2,128 @@
 <html>
 <head>
 	<title>Rating Form</title>
-<!--style type="text/css">
+<style type="text/css">
 	.button{
-		background-color: #4CAF50;
+		color: #4CAF50;
+		background-color:yellow;
 	}
-</style-->
+
+		h1{
+			font-size:60px;
+
+		}
+		.text{
+			background-color:#99ff99;
+			color:blue;
+		}
+	
+</style>
 </head>
 <body style="background-color:skyblue; color:red">
 	<center>
 		<h1>Course Rating Form</h1>
 <form action="post">
-STUDENT NAME<input type="text" name="sname" value="Enter student name"/><br><br>
-COLLEG NAME<input type="text" name="cname" value="Enter college name"/><br><br>
-BRANCH<input type="text" name="branch" value="Enter branch name"/><br><br>
-REGISTER NO<input type="text" name="regno" value="Enter Reg no"/><br><br>
-EMAIL ID<input type="text" name="email" value="Enter email id"/><br><br>
-MOBILE NO<input type="text" name="mobile" value="Enter mobile no"/><br><br>
-<table border="2">
+STUDENT NAME<input type="text" class="text" name="sname" value="Enter student name"/><br><br>
+COLLEG NAME<input type="text" class="text" name="cname" value="Enter college name"/><br><br>
+BRANCH<input type="text" name="branch" class="text" value="Enter branch name"/><br><br>
+REGISTER NO<input type="text" name="regno" class="text" value="Enter Reg no"/><br><br>
+EMAIL ID<input type="text" name="email" class="text" value="Enter email id"/><br><br>
+MOBILE NO<input type="text" name="mobile" class="text" value="Enter mobile no"/><br><br>
+<table border="2" bgcolor="#ffc299" >
 	<tr><th>S.No</th><th>Course</th><th>No Knowledge</th><th>Rating1</th><th>Rating2</th><th>Rating3</th><th>Rating4</th><th>Rating5</th></tr>
 	<tr>
-		<td>1</td><td>JAVA</td><td align="center"><input type="radio" name="java"></td><td align="center"><input type="radio" name="java"></td><td align="center"><input type="radio" name="java"></td><td align="center"><input type="radio" name="java"></td><td align="center"><input type="radio" name="java"></td><td align="center"><input type="radio" name="java"></td>
+		<td>1</td><td>JAVA</td>
+		<td align="center"><input type="radio" name="java"></td>
+		<td align="center"><input type="radio" name="java"></td>
+		<td align="center"><input type="radio" name="java"></td>
+		<td align="center"><input type="radio" name="java"></td>
+		<td align="center"><input type="radio" name="java"></td>
+		<td align="center"><input type="radio" name="java"></td>
 	</tr>
 	<tr>
-		<td>2</td><td>HTML</td><td align="center"><input type="radio" name="java"></td><td align="center"><input type="radio" name="java"></td><td align="center"><input type="radio" name="java"></td><td align="center"><input type="radio" name="java"></td><td align="center"><input type="radio" name="java"></td><td align="center"><input type="radio" name="java"></td>
+		<td>2</td><td>HTML</td>
+		<td align="center"><input type="radio" name="java"></td>
+		<td align="center"><input type="radio" name="java"></td>
+		<td align="center"><input type="radio" name="java"></td>
+		<td align="center"><input type="radio" name="java"></td>
+		<td align="center"><input type="radio" name="java"></td>
+		<td align="center"><input type="radio" name="java"></td>
 	</tr>
 	<tr>
-		<td>3</td><td>PHP</td><td align="center"><input type="radio" name="java"></td><td align="center"><input type="radio" name="java"></td><td align="center"><input type="radio" name="java"></td><td align="center"><input type="radio" name="java"></td><td align="center"><input type="radio" name="java"></td><td align="center"><input type="radio" name="java"></td>
+		<td>3</td><td>PHP</td>
+		<td align="center"><input type="radio" name="java"></td>
+		<td align="center"><input type="radio" name="java"></td>
+		<td align="center"><input type="radio" name="java"></td>
+		<td align="center"><input type="radio" name="java"></td>
+		<td align="center"><input type="radio" name="java"></td>
+		<td align="center"><input type="radio" name="java"></td>
 	</tr>
 	<tr>
-		<td>4</td><td>Java Script</td><td align="center"><input type="radio" name="java"></td><td align="center"><input type="radio" name="java"></td><td align="center"><input type="radio" name="java"></td><td align="center"><input type="radio" name="java"></td><td align="center"><input type="radio" name="java"></td><td align="center"><input type="radio" name="java"></td>
+		<td>4</td><td>Java Script</td>
+		<td align="center"><input type="radio" name="java"></td>
+		<td align="center"><input type="radio" name="java"></td>
+		<td align="center"><input type="radio" name="java"></td>
+		<td align="center"><input type="radio" name="java"></td>
+		<td align="center"><input type="radio" name="java"></td>
+		<td align="center"><input type="radio" name="java"></td>
 	</tr>
 	<tr>
-		<td>5</td><td>Hibernat</td><td align="center"><input type="radio" name="java"></td><td align="center"><input type="radio" name="java"></td><td align="center"><input type="radio" name="java"></td><td align="center"><input type="radio" name="java"></td><td align="center"><input type="radio" name="java"></td><td align="center"><input type="radio" name="java"></td>
+		<td>5</td><td>Hibernat</td>
+		<td align="center"><input type="radio" name="java"></td>
+		<td align="center"><input type="radio" name="java"></td>
+		<td align="center"><input type="radio" name="java"></td>
+		<td align="center"><input type="radio" name="java"></td>
+		<td align="center"><input type="radio" name="java"></td>
+		<td align="center"><input type="radio" name="java"></td>
 	</tr>
 	<tr>
-		<td>6</td><td>Spring</td><td align="center"><input type="radio" name="java"></td><td align="center"><input type="radio" name="java"></td><td align="center"><input type="radio" name="java"></td><td align="center"><input type="radio" name="java"></td><td align="center"><input type="radio" name="java"></td><td align="center"><input type="radio" name="java"></td>
+		<td>6</td><td>Spring</td>
+		<td align="center"><input type="radio" name="java"></td>
+		<td align="center"><input type="radio" name="java"></td>
+		<td align="center"><input type="radio" name="java"></td>
+		<td align="center"><input type="radio" name="java"></td>
+		<td align="center"><input type="radio" name="java"></td>
+		<td align="center"><input type="radio" name="java"></td>
 	</tr>
 	<tr>
-		<td>7</td><td>MYSQL</td><td align="center"><input type="radio" name="java"></td><td align="center"><input type="radio" name="java"></td><td align="center"><input type="radio" name="java"></td><td align="center"><input type="radio" name="java"></td><td align="center"><input type="radio" name="java"></td><td align="center"><input type="radio" name="java"></td>
+		<td>7</td><td>MYSQL</td>
+		<td align="center"><input type="radio" name="java"></td>
+		<td align="center"><input type="radio" name="java"></td>
+		<td align="center"><input type="radio" name="java"></td>
+		<td align="center"><input type="radio" name="java"></td>
+		<td align="center"><input type="radio" name="java"></td>
+		<td align="center"><input type="radio" name="java"></td>
 	</tr>
 	<tr>
-		<td>8</td><td>Oracle</td><td align="center"><input type="radio" name="java"></td><td align="center"><input type="radio" name="java"></td><td align="center"><input type="radio" name="java"></td><td align="center"><input type="radio" name="java"></td><td align="center"><input type="radio" name="java"></td><td align="center"><input type="radio" name="java"></td>
+		<td>8</td><td>Oracle</td>
+		<td align="center"><input type="radio" name="java"></td>
+		<td align="center"><input type="radio" name="java"></td>
+		<td align="center"><input type="radio" name="java"></td>
+		<td align="center"><input type="radio" name="java"></td>
+		<td align="center"><input type="radio" name="java"></td>
+		<td align="center"><input type="radio" name="java"></td>
 	</tr>
 	<tr>
-		<td>9</td><td>Bootstarp</td><td align="center"><input type="radio" name="java"></td><td align="center"><input type="radio" name="java"></td><td align="center"><input type="radio" name="java"></td><td align="center"><input type="radio" name="java"></td><td align="center"><input type="radio" name="java"></td><td align="center"><input type="radio" name="java"></td>
+		<td>9</td><td>Bootstarp</td>
+		<td align="center"><input type="radio" name="java"></td>
+		<td align="center"><input type="radio" name="java"></td>
+		<td align="center"><input type="radio" name="java"></td>
+		<td align="center"><input type="radio" name="java"></td>
+		<td align="center"><input type="radio" name="java"></td>
+		<td align="center"><input type="radio" name="java"></td>
 	</tr>
 	<tr>
-		<td>10</td><td>Hadoop</td><td align="center"><input type="radio" name="java"></td><td align="center"><input type="radio" name="java"></td><td align="center"><input type="radio" name="java"></td><td align="center"><input type="radio" name="java"></td><td align="center"><input type="radio" name="java"></td><td align="center"><input type="radio" name="java"></td>
+		<td>10</td><td>Hadoop</td>
+		<td align="center"><input type="radio" name="java"></td>
+		<td align="center"><input type="radio" name="java"></td>
+		<td align="center"><input type="radio" name="java"></td>
+		<td align="center"><input type="radio" name="java"></td>
+		<td align="center"><input type="radio" name="java"></td>
+		<td align="center"><input type="radio" name="java"></td>
 	</tr>
 	</table>
-	<div class="button"><input type="submit" name="submit">
-</div>
+	<br><input type="submit" class="button" name="submit">
+
 </form>
 </center>
 </body>
